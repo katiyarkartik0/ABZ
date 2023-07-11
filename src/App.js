@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Home } from "./Home";
+import { AboutUs } from "./NavBar/AboutUs";
+import { Header } from "./Header";
+import { Footer } from "./Footer";
+import { TalkToZeela } from "./NavBar/TalkToZeela";
+import { Onboard } from "./NavBar/Onboard";
+import { SourcingPlatForms } from "./NavBar/SourcingPlatforms";
+import { CurrentOpenings } from "./NavBar/CurrentOpenings";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/aboutUs" element={<AboutUs />} />
+        <Route path="/talkToZeela" element={<TalkToZeela />} />
+        <Route path="/onBoard" element={<Onboard />} />
+        <Route path="/sourcingPlatforms" element={<SourcingPlatForms />} />
+        <Route path="/currentOpenings" element={<CurrentOpenings />} />
+      </Routes>
+      <Footer/>
+    </BrowserRouter>
   );
 }
 
