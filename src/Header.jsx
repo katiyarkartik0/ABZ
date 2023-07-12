@@ -5,7 +5,8 @@ export const Header = () => {
     const navigate = useNavigate()
     return (
         <div className="header">
-            <div width="20px" height="20px" className='logo' onClick={() => navigate("/")}></div>
+            <div className='logo' onClick={() => navigate("/")}></div>
+            <br></br>
             <NavLink to="/aboutUs" className="headerButton">About Us</NavLink>
             <NavLink to="/talkToZeela" className="headerButton">Talk to zeela</NavLink>
             <NavLink to="/onBoard" className="headerButton">Onboard</NavLink>

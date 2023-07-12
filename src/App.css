@@ -1,20 +1,20 @@
-body{
+body {
   font-family: "Rubik", sans-serif;
   box-sizing: border-box;
   margin: 0;
 }
-.header{
-  height: 100px;
+.container {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
+}
+.header {
+  padding: 5px;
+  width: 200px;
   background-color: black;
+  display: flex;
+  flex-direction: column;
 }
 
-.headerButton{
-  height:40%;
-  width:10%;
+.headerButton {
   color: white;
   display: flex;
   align-items: center;
@@ -24,34 +24,38 @@ body{
   justify-content: center;
 }
 
-.logo{
+.logo {
   background-image: url(assets/abcinc.jpeg);
-  width: 90px;
-  height: 90px;
+  width: 100%;
+  height: 140px;
   background-size: cover;
 }
 
-.hero_section{
+
+.hero_section {
   background-image: url(assets/hero_section.jpeg);
   height: 200px;
   background-size: cover;
   background-position: 50%;
-  background-repeat: none
+  background-repeat: none;
+}
+.content{
+  flex-grow: 1;
 }
 
-.footer{
-  height: 130px;
-  /* width: 100%; */
+
+.footer {
+  bottom:0;
   background-color: black;
   padding: 5px;
-  position: absolute;
-  bottom: 0px;
+  /* width: 100vw; */
+  flex-grow: 1;
 }
-.footerContent{
+.footerContent {
   color: white;
 }
 
-.active{
+.active {
   background-color: white;
   color: black;
 }
