@@ -2,12 +2,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home } from "./Home";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
-import { TalkToZeela } from "./NavBar/TalkToZeela";
-import { Onboard } from "./NavBar/Onboard";
-import { SourcingPlatForms } from "./NavBar/SourcingPlatforms";
-import { CurrentOpenings } from "./NavBar/CurrentOpenings";
+import { ZeelaOnBoard } from "./NavBar/ZeelaOnBoard";
 import "./App.css";
 import { AboutUs } from "./NavBar/AboutUs/AboutUs";
+import { DepartMents } from "./NavBar/Departments/Departments";
+import { Careers } from "./NavBar/Careers/Careers";
 
 function App() {
   return (
@@ -19,13 +18,9 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/aboutUs" element={<AboutUs />} />
-              <Route path="/talkToZeela" element={<TalkToZeela />} />
-              <Route path="/onBoard" element={<Onboard />} />
-              <Route
-                path="/sourcingPlatforms"
-                element={<SourcingPlatForms />}
-              />
-              <Route path="/currentOpenings" element={<CurrentOpenings />} />
+              <Route path="/zeelaOnBoard" element={<ZeelaOnBoard />} />
+              <Route path="/departments" element={<DepartMents />} />
+              <Route path="/careers" element={<Careers />} />
             </Routes>
           </div>
         </div>

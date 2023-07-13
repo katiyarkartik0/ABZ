@@ -8,27 +8,31 @@ body {
 }
 .header {
   padding: 5px;
-  width: 200px;
+  width: 250px;
   background-color: black;
   display: flex;
   flex-direction: column;
+  position:fixed;
+  height: 100vw;
 }
 
 .headerButton {
   color: white;
   display: flex;
-  align-items: center;
+  /* align-items:flex-end; */
   border-radius: 5px;
   padding: 5px;
   text-decoration: none;
-  justify-content: center;
+  justify-content:end;
 }
 
 .logo {
   background-image: url(assets/abcinc.jpeg);
   width: 100%;
-  height: 140px;
+  height: 217px;
+
   background-size: cover;
+  margin-bottom: 30px;
 }
 
 
@@ -40,7 +44,9 @@ body {
   background-repeat: none;
 }
 .content{
-  flex-grow: 1;
+  margin-left: 250px;
+  /* flex-grow: 1; */
+  width: 100%;
 }
 
 
@@ -48,8 +54,8 @@ body {
   bottom:0;
   background-color: black;
   padding: 5px;
-  /* width: 100vw; */
   flex-grow: 1;
+  margin-left: 260px;
 }
 .footerContent {
   color: white;

@@ -1,6 +1,15 @@
-.aboutUsimg1{
-    height: auto;
-    width: auto;
+.aboutUsimg{
+    height: 750px;
+    width: 1000px;
     display: block;
     margin-left: auto;
+}
+
+@media (max-width:1283px) {
+    .aboutUsimg{
+        height: 500px;
+        width: 750px;
+        display: block;
+        margin-left: auto;
+    }
 }

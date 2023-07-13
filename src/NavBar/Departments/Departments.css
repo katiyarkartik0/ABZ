@@ -1,0 +1,15 @@
+.departmentsImg {
+  height: 750px;
+  width: 1000px;
+  display: block;
+  margin-left: auto;
+}
+
+@media (max-width: 1283px) {
+  .departmentsImg {
+    height: 500px;
+    width: 750px;
+    display: block;
+    margin-left: auto;
+  }
+}
