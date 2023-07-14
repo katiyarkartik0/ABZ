@@ -1,0 +1,7 @@
+.hero_section {
+    background-image: url(./Assets/hero_section.jpeg);
+    height: 200px;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: none;
+  }

@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Home } from "./Home";
+import { Home } from "./Home/Home";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
-import { ZeelaOnBoard } from "./NavBar/ZeelaOnBoard";
 import "./App.css";
 import { AboutUs } from "./NavBar/AboutUs/AboutUs";
 import { DepartMents } from "./NavBar/Departments/Departments";
 import { Careers } from "./NavBar/Careers/Careers";
+import { ZeelaOnBoard } from "./NavBar/ZeelaOnBoard/ZeelaOnBoard";
 
 function App() {
   return (

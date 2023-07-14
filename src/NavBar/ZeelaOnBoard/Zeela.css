@@ -1,0 +1,21 @@
+.zeelaImg{
+    width: 100%;
+    margin-bottom: -4px;
+    margin-left: 5px;
+}
+.clickableLink{
+    position: absolute;
+    top: 84%;
+    left: 45%;
+    transform: translate(-50%, -50%); 
+    background-color: rgb(96, 37, 96);
+    font-size: xx-large;
+    border-radius: 3px;
+    color: white;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

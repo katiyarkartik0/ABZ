@@ -19,11 +19,14 @@ body {
 .headerButton {
   color: white;
   display: flex;
-  /* align-items:flex-end; */
   border-radius: 5px;
   padding: 5px;
   text-decoration: none;
-  justify-content:end;
+  justify-content:start;
+  padding: 30px;
+  font-size: larger;
+  border: solid white;
+  margin:3px
 }
 
 .logo {
@@ -36,17 +39,12 @@ body {
 }
 
 
-.hero_section {
-  background-image: url(assets/hero_section.jpeg);
-  height: 200px;
-  background-size: cover;
-  background-position: 50%;
-  background-repeat: none;
-}
+
 .content{
   margin-left: 250px;
-  /* flex-grow: 1; */
   width: 100%;
+  position: relative; 
+
 }
 
 
