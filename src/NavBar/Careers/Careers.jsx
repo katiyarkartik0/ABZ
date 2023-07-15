@@ -7,6 +7,8 @@ export const Careers = () => {
             <img className="careersImg" src={require("./Assets/slide2.jpg")}></img>
             <img className="careersImg" src={require("./Assets/slide3.jpg")}></img>
             <img className="careersImg" src={require("./Assets/slide4.jpg")}></img>
+            <img className="careersImg" src={require("./Assets/slide5.jpg")}></img>
+
         </div>
     )
 }
